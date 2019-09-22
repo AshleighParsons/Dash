@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sprint_block" android:layout_marginTop="12dp" android:layout_marginBottom="6dp">
+
+
+    <TextView
+            android:id="@+id/tv_todo_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/iv_menu"
+            android:layout_toLeftOf="@+id/iv_menu"
+            android:padding="16dp" android:textSize="20sp" android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_vertical_dot"
+            android:padding="8dp" android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

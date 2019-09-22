@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="@drawable/sprint_block" android:layout_marginTop="6dp"
+        android:layout_marginBottom="3dp">
+
+    <CheckBox
+            android:id="@+id/cb_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_toLeftOf="@id/iv_edit" android:textSize="18sp" android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+    <ImageView android:layout_width="48dp"
+               android:layout_height="48dp"
+               android:src="@drawable/ic_edit_orange"
+               android:padding="8dp"
+               android:layout_toLeftOf="@+id/iv_delete"
+               android:layout_toStartOf="@id/iv_delete"
+               android:id="@+id/iv_edit" android:layout_marginTop="8dp"/>
+
+    <ImageView android:layout_width="48dp"
+               android:layout_height="48dp"
+               android:src="@drawable/ic_delete_orange"
+               android:padding="8dp"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentEnd="true"
+               android:id="@+id/iv_delete" android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

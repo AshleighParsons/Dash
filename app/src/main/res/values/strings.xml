@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dash</string>
+    <string name="heading">Your current Sprints:</string>
+
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="mark_as_completed">Check off all tasks</string>
+    <string name="reset">Reset all tasks</string>
+
+    <string name="placeholder">Sprint Name</string>
+</resources>
